@@ -162,15 +162,12 @@ event:
     - question:      "How much does it cost?"
       answer:        >
         Nothing. Attending a hackathon is free.
-    - question:      "Do I need to be a student to attend?"
-      answer:        >
-        No. Anyone over the age of 18 can attend.
     - question:      "I'm a complete beginner. Can I still come?"
       answer:        >
         Absolutely! We especially encourage people that are new in the field to come along as a hackathon is a great place to get started. [Drop us a message](mailto:johnyin596@gmail.com) if you have any concerns.
     - question:      "Where is the event?"
       answer:        >
-#        The event is being hosted at [Appleton Tower, The University of Edinburgh](https://www.google.co.uk/maps/place/Appleton+Tower,+The+University+of+Edinburgh/@55.9443771,-3.1891978,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c78385c7685d:0x6f9d3da4d39209ee!8m2!3d55.9443771!4d-3.1870091?dcr=0).
+        TBD
     - question:      "How big are the teams?"
       answer:        >
         Teams are no bigger than 4 people.
@@ -180,18 +177,6 @@ event:
     - question:      "Is there a code of conduct?"
       answer:        >
         We will be using the MLH code of conduct and will be enforcing it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
-    - question:      "How does judging work?"
-      answer:        >
-        There will be 3 main winning teams that will be selected by a panel of judges.
-        The judges will score hacks in a number of categories announced at the event.
-        There will also be additional prizes for winners of specific challenges at the event. These challenges will
-        involve meeting certain criteria specific to each one.
-    - question:      "Do I have to use hardware in my hack?"
-      answer:        >
-        Yes, although don't be scared if you've never used hardware before! We'll have a team of elite mentors on site that will be helping you every step of the way. There will also be introductory workshops for beginners. Your hack will probably also include a software component.
-    - question:      "Do I have to come with teammates?"
-      answer:        >
-        There is a team-forming session at the start of the first day so feel free to come along on your own or with friends.
 
   schedule:
     Saturday:
