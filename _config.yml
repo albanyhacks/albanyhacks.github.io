@@ -207,7 +207,10 @@ event:
 
   schedule:
     Saturday:
-      - text:        "To Be Determined"
+        start:       "10:00"
+        track:        "main"
+      - text:        "To Be Determined"      
+        end:          "11:00"
     #    start:       "10:00"
    #     track:       "main"
   #    - text:        "Team forming session 1"
