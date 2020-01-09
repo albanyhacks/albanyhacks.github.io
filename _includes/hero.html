@@ -44,24 +44,24 @@
   <div class="buttons">
     <a href="#signupModal" data-toggle="modal">Sign-up</a>
 
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-    <script type="text/javascript">
-      var exampleCallback = function() {
+<script type="text/javascript">
+    var exampleCallback = function() {
         console.log('Order complete!');
-      };
+    };
 
-      window.EBWidgets.createWidget({
+    window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
         eventId: '88972801043',
         iframeContainerId: 'eventbrite-widget-container-88972801043',
 
         // Optional
-        iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback // Method called when an order has successfully completed
-      });
-    </script>
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
 
     {% for link in site.event.hero.links %}
     <a href="{{ link.href }}">{{ link.text }}</a> {% endfor %}
