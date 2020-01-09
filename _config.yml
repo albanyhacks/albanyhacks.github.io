@@ -1,212 +1,80 @@
-# --------------
-# -- Settings --
-# --------------
-
-# Ignore this. This is only if you're hosting this in a sub-folder.
-# If you're using GitHub pages, they automatically override this with the right value.
-baseurl:             ""
-
-# If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
-# If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url:                 "https://albanyhacks.github.io"
-
-
-full:                false
-# The ability to use custom themes.
+baseurl: ""
+url: 'https://albanyhacks.github.io'
+full: false
 style:
-  theme:             "original"
-
-# This will help you track who's visiting your website.
+    theme: original
 tracking:
-  google_analytics:  "UA-92880122-2"
-
-# Let people connect & engage with you through social media.
+    google_analytics: UA-92880122-2
 social:
-  twitter_handle:    "AlbanyHacks"
-
-# This is Search Engine Optimization. It'll help your website look better on search.
+    twitter_handle: AlbanyHacks
 seo:
-  title:             "AlbanyHacks | 4th March 2020"
-  description:       "24-hour hackathon in Capital Region"
-  image:             "https://createdhack.github.io/images/logo.png"
-
+    title: 'AlbanyHacks | 4th March 2020'
+    description: '24-hour hackathon in Capital Region'
+    image: 'https://createdhack.github.io/images/logo.png'
 organiser:
-  name:              "Shaker Coding Club and Hackclub"
-  full_name:         "Hackclub"
-  site:              "https://hackclub.com/"
-
-# Event information.
+    name: 'Shaker Coding Club and Hackclub'
+    full_name: Hackclub
+    site: 'https://hackclub.com/'
 event:
-  name:              "AlbanyHacks 2020"
-  name_short:        "AlbanyHacks"
-  description:       "24-hour hackathon"
-  date:              "4th of April"
-  location:          "Capital Region"
-  logosrc:           "images/logo.png"
-  logoalt:           "AlbanyHacks Logo"
-
-  trust_badge:
-    year:            "2020"  # season year
-    region:          "eu"    # "na" or "eu"
-    color:           "blue" # "white", "black", "gray", "red", "blue" or "yellow"
-
-
-
-    links:
-      - text:        "Sponsor"
-        href:        "mailto:johnyin596@gmail.com"
-
-  about:
-    description:     >
-      AlbanyHacks is a 24 hour hackathon coming to the Capital Region this April.{::nomarkdown}<br />{:/}
-      It'll bring together students for a fun weekend of invention, coding, and learning.{::nomarkdown}<br />{:/}
-      Brought to you by Shaker Coding Club and [Hack Club](https://hackclub.com/).
-
-  workshops:
-         name: "N/A"
-  #    - name: "Introduction to Electronics"
-   #     time: "12.00 - 13.00"
-    #    level: "No prior experience required."
-     #   description: "Do you want to learn the basics of building circuits? We will take you over the fundamentals of electronics concepts, explain how components such as resistors or transistors work and finally get you to build some circuits of your own!"
-
-  # Info Sections
-  sponsors:
-    # tier1 is top, anycont is bottom (refer to sponsorship packages)
- #   tier2:
-  #    - logo:        "images/accenture_logo.png"
-       # name:        "Accenture"
-       # url:         "http://www.accenture.com"
-      #- logo:        "images/nordic_logo.png"
-      #  name:        "Nordic"
-      #  url:         "http://www.nordicsemi.com/"
-     # - logo:        "images/github_logo.png"
-     #   name:        "GitHub"
-     #   url:         "https://github.com"
-     # - logo:        "images/queryclick_logo.svg"
-     #   name:        "QueryClick"
-     #   url:         "http://uk.queryclick.com/en/"
-     # - logo:        "images/ecr_logo.jpg"
-      #  name:        "ECR"
-      #  url:         "https://www.edinburgh-robotics.org/"
-      #- logo:        "images/consequentialrobotics_logo.png"
-      #  name:        "Consequential Robotics"
-      #  url:         "http://consequentialrobotics.com"
-    #tier3:
-     # - logo:        "images/codethink_logo.svg"
-      #  name:        "Codethink"
-       # url:         "https://www.codethink.co.uk/"
-      #- logo:        "images/mokanix_logo_small.png"
-      #  name:        "mokanix"
-      #  url:         "https://www.mokanix.io"
-     # - logo:        "images/fdm_logo.png"
-     #   name:        "FDM Group"
-     #   url:         "https://www.fdmgroup.com/"
-     # - logo:        "images/compsoc_logo.png"
-     #   name:        "Compsoc"
-     #   customstyle: "padding-top: 20%; margin-bottom: 10%;"
-     #   url:         "https://comp-soc.com/"
-     # - logo:        "images/morgain_stanley_logo.svg"
-      #  name:        "Morgan Stanley"
-       # url:         "https://www.morganstanley.com/"
-        #customstyle: "padding-top: 2%;"
-      #- logo:        "images/sicsa_logo.svg"
-      #  name:        "SISCA"
-      #  url:         "http://www.sicsa.ac.uk/"
-    #anycont:
-    #  - logo:        "images/InformaticsUni_transparent.gif"
-     #   name:        "University of Edinburgh School of Informatics"
-      #  url:         "http://www.ed.ac.uk/informatics"
-     # - logo:        "images/xilinx_logo.png"
-     #   name:        "Xilinx"
-     #   url:         "http://www.xilinx.com"
-     # - logo:        "images/mouser_logo.jpg"
-     #   name:        "Mouser"
-     #   url:         "http://mouser.com/"
-     # - logo:        "images/jetbrains_logo.png"
-     #   name:        "JetBrains"
-     #   url:         "https://www.jetbrains.com/"
-     # - logo:        "images/unity_logo.png"
-     #   name:        "Unity"
-     #   url:         "http://unity3d.com/"
-     # - logo:        "images/lime_logo.png"
-     #   name:        "Lime Microsystems"
-     #   url:         "http://www.limemicro.com/"
-     # - logo:        "images/twilio_logo.svg"
-     #   name:        "Twilio"
-      #  url:         "https://www.twilio.com"
-
-  info:
-    sections:
-      - image:       "images/header1.png"
-        imagealt:    "Circuitry on a breadboard"
-        title:       "Hardware"
-        description: >
-         We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.
-      - image:       "images/header2.png"
-        imagealt:    "Mentor assiting workshop attendees"
-        title:       "Workshops"
-        description: >
-         We will also be running an exciting series of workshops in parallel to the main event. The list will be announced soon&trade; and you'll be able to sign up on the day. Watch this space!
-      - image:       "images/header3.png"
-        imagealt:    "Two mentors discussing information on a computer"
-        title:       "Mentors"
-        description: >
-          We have a team of elite mentors available on site. They will be there to guide you all throughout the event whether you are a beginner or a seasoned hacker!
-
-  # Frequently asked questions.
-  faq:
-    - question:      "What is a hackathon?"
-      answer:        >
-        A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
-    - question:      "How much does it cost?"
-      answer:        >
-        Nothing. Attending a hackathon is free.
-    - question:      "I'm a complete beginner. Can I still come?"
-      answer:        >
-        Absolutely! We especially encourage people that are new in the field to come along as a hackathon is a great place to get started. [Drop us a message](mailto:johnyin596@gmail.com) if you have any concerns.
-    - question:      "Where is the event?"
-      answer:        >
-        TBD
-    - question:      "How big are the teams?"
-      answer:        >
-        Teams are no bigger than 4 people.
-    - question:      "Do you offer travel reimbursement?"
-      answer:        >
-        We cannot reimburse you for your travel expenses.
-    - question:      "Is there a code of conduct?"
-      answer:        >
-        We will be using the MLH code of conduct and will be enforcing it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
-
-  schedule:
-    Saturday:
-        start:       "10:00"
-        track:        "main"
-      - text:        "To Be Determined"      
-        end:          "11:00"
-    #    start:       "10:00"
-   #     track:       "main"
-  #    - text:        "Team forming session 1"
- #       start:       "10:30"
-#        end:         "11:00"
-
-  # This is the message you'll receive once you've registered.
-  register:
-    message:         >
-      Thanks for signing up!
-      {::nomarkdown}<br />{:/}
-      You'll receive more information closer to the hackathon.
-
-# ----------------------------------------------------
-# -- Ignore this unless you know what you're doing. --
-# ----------------------------------------------------
-
-markdown:            kramdown
+    name: 'AlbanyHacks 2020'
+    name_short: AlbanyHacks
+    description: '24-hour hackathon'
+    date: '4th of April'
+    location: 'Capital Region'
+    logosrc: images/logo.png
+    logoalt: 'AlbanyHacks Logo'
+    trust_badge:
+        year: '2020'
+        region: eu
+        color: blue
+        links:
+            - {text: Sponsor, href: 'mailto:johnyin596@gmail.com'}
+    about:
+        description: "AlbanyHacks is a 24 hour hackathon coming to the Capital Region this April.{::nomarkdown}<br />{:/} It'll bring together students for a fun weekend of invention, coding, and learning.{::nomarkdown}<br />{:/} Brought to you by Shaker Coding Club and [Hack Club](https://hackclub.com/).\n"
+    workshops:
+        name: N/A
+    sponsors: null
+    info:
+        sections:
+            - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: Hardware, description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
+            - {image: images/header2.png, imagealt: 'Mentor assiting workshop attendees', title: Workshops, description: "We will also be running an exciting series of workshops in parallel to the main event. The list will be announced soon&trade; and you'll be able to sign up on the day. Watch this space!\n"}
+            - {image: images/header3.png, imagealt: 'Two mentors discussing information on a computer', title: Mentors, description: "We have a team of elite mentors available on site. They will be there to guide you all throughout the event whether you are a beginner or a seasoned hacker!\n"}
+    faq:
+        -
+            question: 'What is a hackathon?'
+            answer: "A hackathon is an invention marathon. Students come together to build cool software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).\n"
+        -
+            question: 'How much does it cost?'
+            answer: "Nothing. Attending a hackathon is free.\n"
+        -
+            question: 'I''m a complete beginner. Can I still come?'
+            answer: "Absolutely! We especially encourage people that are new in the field to come along as a hackathon is a great place to get started. [Drop us a message](mailto:johnyin596@gmail.com) if you have any concerns.\n"
+        -
+            question: 'Where is the event?'
+            answer: "TBD\n"
+        -
+            question: 'How big are the teams?'
+            answer: "Teams are no bigger than 4 people.\n"
+        -
+            question: 'Do you offer travel reimbursement?'
+            answer: "We cannot reimburse you for your travel expenses.\n"
+        -
+            question: 'Is there a code of conduct?'
+            answer: 'We will be using the MLH code of conduct and will be enforcing it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).'
+    schedule:
+        Saturday:
+            start: '10:00'
+            track: main
+            text: 'To Be Determined'
+            end: '11:00'
+    register:
+        message: "Thanks for signing up! {::nomarkdown}<br />{:/} You'll receive more information closer to the hackathon.\n"
+markdown: kramdown
 exclude:
- - node_modules
- - gulpfile.js
- - Gemfile
- - Gemfile.lock
- - package.json
- - README.md
- - CNAME
+    - node_modules
+    - gulpfile.js
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - README.md
+    - CNAME
