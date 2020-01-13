@@ -33,7 +33,11 @@ event:
         description: "AlbanyHacks is a 24 hour hackathon coming to the Capital Region this April.{::nomarkdown}<br />{:/} It'll bring together students for a fun weekend of invention, coding, and learning.{::nomarkdown}<br />{:/} Brought to you by Shaker Coding Club and [Hack Club](https://hackclub.com/).\n"
     workshops:
         name: N/A
-    sponsors: null
+    sponsors: 
+        tier2:
+      - logo:        "images/accenture_logo.png"
+        name:        "Particle"
+        url:         "https://www.particle.io/"
     info:
         sections:
             - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: Hardware, description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
