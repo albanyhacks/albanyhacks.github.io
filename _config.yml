@@ -35,7 +35,7 @@ event:
         name: N/A
     sponsors: 
         tier2:
-          - logo:        "images/particle_logo.png"
+          - logo:        "images/particle__logo.png"
             name:        "Particle"
             url:         "https://www.particle.io/"
     info:
