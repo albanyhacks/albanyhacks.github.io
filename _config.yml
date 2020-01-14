@@ -35,9 +35,9 @@ event:
         name: N/A
     sponsors: 
         tier2:
-          - logo:        "images/accenture_logo.png"
-            name:        "Accenture"
-            url:         "http://www.accenture.com"
+          - logo:        "images/particle_logo.png"
+            name:        "Particle"
+            url:         "https://www.particle.io/"
     info:
         sections:
             - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: Hardware, description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
