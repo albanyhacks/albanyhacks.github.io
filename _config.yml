@@ -40,7 +40,7 @@ event:
             url:         "https://www.particle.io/"
     info:
         sections:
-            - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: Hardware, description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
+            - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: Student Oriented, description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
             - {image: images/header2.png, imagealt: 'Mentor assiting workshop attendees', title: Workshops, description: "We will also be having beginner-friendly workshops parallel to the main event. Watch this space!\n"}
             - {image: images/header3.png, imagealt: 'Two mentors discussing information on a computer', title: Mentors, description: "We will have mentors available on site to guide you along the way!\n"}
     faq:
