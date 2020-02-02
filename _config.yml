@@ -36,7 +36,7 @@ event:
     sponsors:
         tier2:
             - {logo: images/particle__logo.png, name: Particle, url: 'https://www.particle.io/'}
-            - {logo: images/GF_Logo_highres_300dpi.png, name: 'Global Foundries', url: 'https://www.globalfoundries.com/'}
+            - {logo: images/GF_Logo_highres_300dpi.jpg, name: 'Global Foundries', url: 'https://www.globalfoundries.com/'}
     info:
         sections:
             - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: 'Student Oriented', description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
