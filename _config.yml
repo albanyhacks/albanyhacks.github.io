@@ -10,7 +10,7 @@ social:
 seo:
     title: 'AlbanyHacks | 4th March 2020'
     description: '24-hour hackathon in Capital Region'
-    image: ''
+    image: ""
 organiser:
     name: 'Shaker Coding Club and Hackclub'
     full_name: Hackclub
@@ -33,17 +33,13 @@ event:
         description: "AlbanyHacks is a 24 hour hackathon coming to the Capital Region this April.{::nomarkdown}<br />{:/} It'll bring together students for a fun weekend of invention, coding, and learning.{::nomarkdown}<br />{:/} Brought to you by Shaker Coding Club and [Hack Club](https://hackclub.com/).\n"
     workshops:
         name: N/A
-    sponsors: 
+    sponsors:
         tier2:
-          - logo:        "images/particle__logo.png"
-            name:        "Particle"
-            url:         "https://www.particle.io/"
-          - logo:        "images/GF_Logo_highres_300dpi.png"
-            name:        "Global Foundries"
-            url:         "https://www.globalfoundries.com/"
+            - {logo: images/particle__logo.png, name: Particle, url: 'https://www.particle.io/'}
+            - {logo: images/GF_Logo_highres_300dpi.png, name: 'Global Foundries', url: 'https://www.globalfoundries.com/'}
     info:
         sections:
-            - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: Student Oriented, description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
+            - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: 'Student Oriented', description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
             - {image: images/header2.png, imagealt: 'Mentor assiting workshop attendees', title: Workshops, description: "We will also be having beginner-friendly workshops parallel to the main event. Watch this space!\n"}
             - {image: images/header3.png, imagealt: 'Two mentors discussing information on a computer', title: Mentors, description: "We will have mentors available on site to guide you along the way!\n"}
     faq:
@@ -54,7 +50,7 @@ event:
             question: 'How much does it cost?'
             answer: "Nothing. Attending a hackathon is free.\n"
         -
-            question: 'I'm a complete beginner. Can I still come?'
+            question: 'I''m a complete beginner. Can I still come?'
             answer: "Absolutely! We especially encourage people that are new in the field to come along as a hackathon is a great place to get started. [Drop us a message](mailto:johnyin596@gmail.com) if you have any concerns.\n"
         -
             question: 'Where is the event?'
