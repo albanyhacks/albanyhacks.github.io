@@ -38,7 +38,7 @@ event:
           - logo:        "images/particle__logo.png"
             name:        "Particle"
             url:         "https://www.particle.io/"
-          - logo:        "images/globalfoundries_logo.png"
+          - logo:        "images/GF_Logo_highres_300dpi.png"
             name:        "Global Foundries"
             url:         "https://www.globalfoundries.com/"
     info:
