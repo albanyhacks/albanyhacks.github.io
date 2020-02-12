@@ -57,7 +57,7 @@ section {
 } */
 .hero .wrapper {
   padding-top: 16vh;
-  background-image: url("../images/capital-region.png");
+  background-image: url("../images/darkbluebackground.jpg");
   background-attachment: fixed;
   background-position-x: center;
 }
