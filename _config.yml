@@ -12,7 +12,7 @@ seo:
     description: '12-hour hackathon in Capital Region'
     image: ""
 organiser:
-    name: 'Shaker Coding Club and Hackclub'
+    name: 'Hackclub'
     full_name: Hackclub
     site: 'https://hackclub.com/'
 event:
@@ -21,7 +21,7 @@ event:
     description: '12-hour hackathon'
     date: '4th of April'
     location: 'Capital Region'
-    logosrc: images/logo.png
+    logosrc: images/albanyhackslogo.png
     logoalt: 'AlbanyHacks Logo'
     trust_badge:
         year: '2020'
