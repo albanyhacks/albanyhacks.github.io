@@ -8,7 +8,7 @@ tracking:
 social:
     twitter_handle: AlbanyHacks
 seo:
-    title: 'AlbanyHacks | 18th April 2020'
+    title: 'AlbanyHacks | August 9-15th'
     description: '12-hour hackathon in Capital Region'
     image: ""
 organiser:
@@ -19,7 +19,7 @@ event:
     name: 'AlbanyHacks 2020'
     name_short: AlbanyHacks
     description: '12-hour hackathon'
-    date: 'Due to COVID-19, the date is TBD'
+    date: 'Due to COVID-19, the hackathon will be online from August 9-15th'
     location: 'Capital Region'
     logosrc: images/albanyhackslogo.png
     logoalt: 'AlbanyHacks Logo'
