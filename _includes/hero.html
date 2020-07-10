@@ -42,25 +42,7 @@
     </div>
   </div>
   <div class="buttons">
-    <a href="#signupModal" data-toggle="modal">Sign-up</a>
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '88972801043',
-        iframeContainerId: 'eventbrite-widget-container-88972801043',
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSegbXt2h1kU8tiCSQ1QfvRqqLGJuGEHKxLYVDZqxioqPzyFWQ/viewform?usp=sf_link" data-toggle="modal">Sign-up</a>
 
     {% for link in site.event.hero.links %}
     <a href="{{ link.href }}">{{ link.text }}</a> {% endfor %}
