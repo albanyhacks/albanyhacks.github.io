@@ -18,7 +18,7 @@ organiser:
 event:
     name: 'AlbanyHacks 2020'
     name_short: AlbanyHacks
-    description: 'Online hackathon'
+    description: 'Online High School Hackathon'
     date: 'Due to COVID-19, the hackathon will be online from August 9-15th'
     location: 'Capital Region'
     logosrc: images/albanyhackslogo.png
