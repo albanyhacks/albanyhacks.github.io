@@ -19,7 +19,7 @@ event:
     name: 'AlbanyHacks 2020'
     name_short: AlbanyHacks
     description: 'Online High School Hackathon'
-    date: 'Due to COVID-19, the hackathon will be online from August 9-15th'
+    date: 'August 9-12th'
     location: 'Capital Region'
     logosrc: images/albanyhackslogo.png
     logoalt: 'AlbanyHacks Logo'
@@ -30,7 +30,7 @@ event:
         links:
             - {text: Sponsor, href: 'mailto:johnyin596@gmail.com'}
     about:
-        description: "AlbanyHacks is an online hackathon coming to the Capital Region this August.{::nomarkdown}<br />{:/} It'll bring together students for a fun weekend of invention, coding, and learning.{::nomarkdown}<br />{:/} Brought to you by [Hack Club](https://hackclub.com/).\n"
+        description: "AlbanyHacks is an online hackathon coming to the Capital Region this August.{::nomarkdown}<br />{:/} It'll bring together students for three fun days of invention, coding, and learning.{::nomarkdown}<br />{:/} Brought to you by [Hack Club](https://hackclub.com/).\n"
     workshops:
         name: N/A
     sponsors:
