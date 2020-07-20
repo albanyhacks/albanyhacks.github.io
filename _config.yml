@@ -60,8 +60,8 @@ event:
             question: 'How big are the teams?'
             answer: "Teams are no bigger than 4 people.\n"
         -
-            question: 'Do you offer travel reimbursement?'
-            answer: "We cannot reimburse you for your travel expenses.\n"
+            question: 'What are the prizes?'
+            answer: "We will have prizes worth $150 in value! If you do not live in the United States, then we cannot ship you a prize.\n"
         -
             question: 'Is there a code of conduct?'
             answer: 'We will be using the MLH code of conduct and will be enforcing it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).'
