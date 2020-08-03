@@ -67,7 +67,7 @@ event:
         -
             question: 'Is there a code of conduct?'
             answer: 'We will be using the MLH code of conduct and will be enforcing it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).'
-  schedule:
+schedule:
     Saturday:
       - text:        "Start of registration"
         start:       "10:00"
