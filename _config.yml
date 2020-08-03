@@ -39,6 +39,7 @@ event:
             - {logo: images/GF_Logo_highres_300dpi.jpg, name: 'Global Foundries', url: 'https://www.globalfoundries.com/'}
             - {logo: images/balsamiq-logo-screen.png, name: 'Balsamiq', url: 'https://balsamiq.com/'}
             - {logo: images/echoAR logo.png, name: 'echoAR', url: 'https://www.echoar.xyz/'}
+            - {logo: images/Hackathon Logo Wolfram 2020 Vector-1.jpg, name: 'Wolfram', url: 'https://www.wolfram.com/'}
     info:
         sections:
             - {image: images/header1.png, imagealt: 'Circuitry on a breadboard', title: 'Student Oriented', description: "We are the one of the few student run hackathons in the Capital Region focused specifically for high school students.\n"}
